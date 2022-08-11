@@ -1,2 +1,4 @@
 let nombre = "Juan Perez";
-console.log("Hola mundo");
+let edad = 26;
+console.log("Hola " + nombre);
+console.log(nombre +"tiene" + edad+ "años" );
