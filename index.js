@@ -7,6 +7,7 @@ console.log("se le pagara:"+calcularSalario(16));
 function calcularEdad (anioNacimiento){
     return new Date().getFullYear()-anioNacimiento;
 }
+
 function calcularSalario(horasTrabajadas){
     return horasTrabajadas * 20000
 }
